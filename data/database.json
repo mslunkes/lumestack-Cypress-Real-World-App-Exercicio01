@@ -76,103 +76,147 @@
       "modifiedAt": "2024-03-07T00:07:36.510Z"
     },
     {
-      "id": "s1acTbp5k",
-      "uuid": "96259c33-2d06-4f66-9774-781e19e628d7",
-      "firstName": "Admin1",
-      "lastName": "LastNameAdmin1",
-      "username": "admin1",
-      "password": "$2a$10$wELTSMNPjsZSyVnd5S6LaeHOea9UYBJjKcOmY.xG2XBxPD6GbdwD6",
-      "balance": 0,
-      "createdAt": "2025-07-21T22:28:17.985Z",
-      "modifiedAt": "2025-07-21T22:28:17.985Z"
-    },
-    {
-      "id": "KHnxIsqk3",
-      "uuid": "2e54b329-943a-4a8a-a6c5-2c31ac0232c4",
-      "firstName": "Admin1",
-      "lastName": "Admin123",
-      "username": "admin1",
-      "password": "$2a$10$t/BgDDKW6Zmmh.wN9Dr8T.iODC7JosIy8InObIToK04gjL5Ffhyw2",
-      "balance": 0,
-      "createdAt": "2025-07-21T23:44:52.983Z",
-      "modifiedAt": "2025-07-21T23:44:52.983Z"
-    },
-    {
-      "id": "TLi2uYafw",
-      "uuid": "6e3ae509-0915-4b37-b397-7f5712b90c07",
-      "firstName": "Admin1",
-      "lastName": "Admin123",
-      "username": "admin1",
-      "password": "$2a$10$ctrd8Kbuo.BpLh.6NrvNSuH/xBbCtpm1v/AuOTUvztxTZ6FSllw3W",
-      "balance": 0,
-      "createdAt": "2025-07-21T23:45:04.108Z",
-      "modifiedAt": "2025-07-21T23:45:04.108Z"
-    },
-    {
-      "id": "PMg4ouepp",
-      "uuid": "d2e399ce-6945-4a56-954a-de9a028ca89d",
+      "id": "DB-E504TE",
+      "uuid": "52f89d30-9cee-4f89-bd4c-86adee837cf0",
       "firstName": "Admin1",
       "lastName": "LastAdmin123",
       "username": "admin1",
-      "password": "$2a$10$nEFga0UPnOn0q4htRhPz8eUzrka2g.7xrG0cfSi46lfppppqXP3my",
+      "password": "$2a$10$xsL4zc8DsDvJVvOT2L6xG./3UNOeAJM1CoQbZWP/8v3yhxdRcQ2KC",
       "balance": 0,
-      "createdAt": "2025-07-21T23:45:45.404Z",
-      "modifiedAt": "2025-07-21T23:45:45.404Z"
+      "createdAt": "2025-07-23T21:22:09.214Z",
+      "modifiedAt": "2025-07-23T21:22:09.214Z"
     },
     {
-      "id": "0NgFMshUy",
-      "uuid": "5a438d2a-24bc-4726-a643-ae1d2bce7cc7",
+      "id": "l7mE4dKjo",
+      "uuid": "ed33dad4-4562-4576-b1aa-4d2598883197",
       "firstName": "Admin1",
       "lastName": "LastAdmin123",
       "username": "admin1",
-      "password": "$2a$10$wkcvRvRx1B.eLuzCfu.72OPHU8mICxxv0G9z90gcpUCsIu1SIWsXe",
+      "password": "$2a$10$SU6aW1736gzlNYWpqGNUAuLyGDtwm8iczgj0b8m6JJtjxk0oSKXqK",
       "balance": 0,
-      "createdAt": "2025-07-21T23:45:52.208Z",
-      "modifiedAt": "2025-07-21T23:45:52.208Z"
+      "createdAt": "2025-07-23T21:22:53.861Z",
+      "modifiedAt": "2025-07-23T21:22:53.861Z"
     },
     {
-      "id": "UnyyRFhhV",
-      "uuid": "fe5f1425-55b8-4ed5-a04b-6108652d1108",
+      "id": "pv1E2BIVo",
+      "uuid": "a8e33a1f-5c2f-40ab-a28d-18fe772074e5",
       "firstName": "Admin1",
       "lastName": "LastAdmin123",
       "username": "admin1",
-      "password": "$2a$10$m.muRllq88uQCpyMNuTBKOq87ZLs80avHpYBfzzhmmBZCtg0Pje1C",
+      "password": "$2a$10$CsPIgBUcQGcct9XuFh/OquDTcWz5dyoewH2n.ccjRB/6dcfK.17U.",
       "balance": 0,
-      "createdAt": "2025-07-21T23:49:55.544Z",
-      "modifiedAt": "2025-07-21T23:49:55.544Z"
+      "createdAt": "2025-07-23T21:23:06.495Z",
+      "modifiedAt": "2025-07-23T21:23:06.495Z"
     },
     {
-      "id": "00wumYIAy",
-      "uuid": "ca3951a2-2a1e-4dee-87e5-855438463606",
+      "id": "B5w8AuyUt",
+      "uuid": "5755b270-6c7b-48d6-aaf1-e0c117eb4cbe",
       "firstName": "Admin1",
       "lastName": "LastAdmin123",
       "username": "admin1",
-      "password": "$2a$10$ZsEyq5PRk1XPG2TuCBi9lOGcdwy7l5g6T/wH0/iYFCp7McOsTVjA6",
+      "password": "$2a$10$QMnVdZana8KKb33.KQfPN.nbA.hSi87f7d5Dk2GyoB365quS8mW5O",
       "balance": 0,
-      "createdAt": "2025-07-22T00:12:35.860Z",
-      "modifiedAt": "2025-07-22T00:12:35.860Z"
+      "createdAt": "2025-07-23T21:23:20.070Z",
+      "modifiedAt": "2025-07-23T21:23:20.070Z"
     },
     {
-      "id": "ohe8Y4kCY",
-      "uuid": "083ed21d-4427-489d-9678-c189b099f45c",
+      "id": "U7Fe4lXQI",
+      "uuid": "655ca8d3-b6ed-4a58-96a7-9b0726cacce3",
       "firstName": "Admin1",
       "lastName": "LastAdmin123",
       "username": "admin1",
-      "password": "$2a$10$O3qK6m2iCfY1pxYY0.wzFe9t/ZhqHX0Q0K46S7LITlumjr8j94nn6",
+      "password": "$2a$10$cIpjt0zt0JpBrKfSdh4F3Ol4E1YbeOvbs3txXp..tbcdWkMASeg1O",
       "balance": 0,
-      "createdAt": "2025-07-22T00:12:43.880Z",
-      "modifiedAt": "2025-07-22T00:12:43.880Z"
+      "createdAt": "2025-07-23T21:23:34.856Z",
+      "modifiedAt": "2025-07-23T21:23:34.856Z"
     },
     {
-      "id": "UAnCiyTrm",
-      "uuid": "07348d7f-9c78-43c0-b02d-9bdf02adf267",
+      "id": "r6zQM4Txb",
+      "uuid": "6160ce6c-a10f-49ad-a1a5-23bd4c126cf3",
       "firstName": "Admin1",
       "lastName": "LastAdmin123",
       "username": "admin1",
-      "password": "$2a$10$dQ.dnZdMohaVk4PF5BM3YeGo1M9iCMDybIOg023yyTW469jNQZVNu",
+      "password": "$2a$10$9P0J17eIjyv4xFkQAACUDeSeoVtJI0n/C3gswnqreqfeVb/rMXl3W",
       "balance": 0,
-      "createdAt": "2025-07-22T00:12:51.665Z",
-      "modifiedAt": "2025-07-22T00:12:51.665Z"
+      "createdAt": "2025-07-23T21:24:09.151Z",
+      "modifiedAt": "2025-07-23T21:24:09.151Z"
+    },
+    {
+      "id": "j1oCg_6DY",
+      "uuid": "3421e222-14a2-4f12-ba3a-c8e917c8f7f1",
+      "firstName": "Admin1",
+      "lastName": "LastAdmin123",
+      "username": "admin1",
+      "password": "$2a$10$nlLWW3Qm1n9P0toaBldWh.VcSmRZgDVbqC1Z3JJnCcIpQIw/lbO.S",
+      "balance": 0,
+      "createdAt": "2025-07-23T21:24:13.350Z",
+      "modifiedAt": "2025-07-23T21:24:13.350Z"
+    },
+    {
+      "id": "5PINiUsSt",
+      "uuid": "f41dcdac-0c49-432f-8218-da2a0ffd202f",
+      "firstName": "Admin1",
+      "lastName": "LastAdmin123",
+      "username": "admin1",
+      "password": "$2a$10$4rgD5w6PowkE8GjTyfDYjO1qdRhVuYkNEFRPoh62LO0aH2CP6Hxbm",
+      "balance": 0,
+      "createdAt": "2025-07-23T21:26:23.743Z",
+      "modifiedAt": "2025-07-23T21:26:23.743Z"
+    },
+    {
+      "id": "UdghdJe5-",
+      "uuid": "caa63076-0e16-4b36-992c-ca2e9fac93d9",
+      "firstName": "Admin1",
+      "lastName": "LastAdmin123",
+      "username": "admin1",
+      "password": "$2a$10$dq0VKh3yqXNzHNePacKhUeKtqzqnmpQLzADvnmHfqMnqHt7YBQJ8i",
+      "balance": 0,
+      "createdAt": "2025-07-23T21:26:34.188Z",
+      "modifiedAt": "2025-07-23T21:26:34.188Z"
+    },
+    {
+      "id": "ZS4QVRN9f",
+      "uuid": "1c1c1b0b-5d3f-4c7d-9575-4e6dbce1edbe",
+      "firstName": "Admin1",
+      "lastName": "LastAdmin123",
+      "username": "admin1",
+      "password": "$2a$10$IX23RtYJsqiV02uQTs4xcu0bZa/77rCh9cxw9W9jr2EQbNDCWwV2i",
+      "balance": 0,
+      "createdAt": "2025-07-23T21:27:00.715Z",
+      "modifiedAt": "2025-07-23T21:27:00.715Z"
+    },
+    {
+      "id": "twBnkJpmi",
+      "uuid": "fc42c225-69b2-4631-aff4-345609e6adfa",
+      "firstName": "Admin1",
+      "lastName": "LastAdmin123",
+      "username": "admin1",
+      "password": "$2a$10$W6q1mEUuSVHH3RdQTgvVm.jZ9x7TVoQb0NX8eTz3cKUP4FjEv9RYu",
+      "balance": 0,
+      "createdAt": "2025-07-23T21:27:18.236Z",
+      "modifiedAt": "2025-07-23T21:27:18.236Z"
+    },
+    {
+      "id": "L-9EBcZZp",
+      "uuid": "9c3a9a61-dc32-49d5-a158-09179f444ea9",
+      "firstName": "Admin1",
+      "lastName": "LastAdmin123",
+      "username": "admin1",
+      "password": "$2a$10$Rmza09eHWa6fPUSrB8B3yOOr8fFDEtqgoCaSoB/8HweaHmZZ99orq",
+      "balance": 0,
+      "createdAt": "2025-07-23T21:28:45.818Z",
+      "modifiedAt": "2025-07-23T21:28:45.818Z"
+    },
+    {
+      "id": "GH6AzfIX2",
+      "uuid": "adb848ae-33c5-4e82-87f8-9749c610c097",
+      "firstName": "Admin1",
+      "lastName": "LastAdmin123",
+      "username": "admin1",
+      "password": "$2a$10$uBcv99q7ik.Fjz0EhiuMIui6.RRcFsi7pGB93hlWsJwYLTUtF/fsm",
+      "balance": 0,
+      "createdAt": "2025-07-23T21:31:39.172Z",
+      "modifiedAt": "2025-07-23T21:31:39.172Z"
     }
   ],
   "contacts": [
@@ -354,15 +398,15 @@
       "modifiedAt": "2024-03-07T08:44:31.174Z"
     },
     {
-      "id": "XNIYQS4JU",
-      "uuid": "4d98934d-4b53-4d8b-92ca-0305ad6cf5ba",
-      "userId": "s1acTbp5k",
+      "id": "qgtFDluUu",
+      "uuid": "0fd3ca5d-b3d9-42e6-b9bf-887b1f1874ce",
+      "userId": "DB-E504TE",
       "bankName": "Nubank",
-      "accountNumber": "123456789",
-      "routingNumber": "102030405",
+      "accountNumber": "102030405060",
+      "routingNumber": "123456789",
       "isDeleted": false,
-      "createdAt": "2025-07-21T22:39:05.780Z",
-      "modifiedAt": "2025-07-21T22:39:05.780Z"
+      "createdAt": "2025-07-23T21:22:10.900Z",
+      "modifiedAt": "2025-07-23T21:22:10.900Z"
     }
   ],
   "transactions": [

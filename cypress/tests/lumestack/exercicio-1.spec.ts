@@ -3,7 +3,9 @@
 //Descrição: Garanta que o sistema exiba uma mensagem de erro ao tentar fazer login com credenciais inválidas (email ou senha incorretos).
 
 describe("cypress-realworld-app", () => {
+
     it('Create new Login', () => {
+        cy.wait(1)
         cy.visit('http://localhost:3000')
         cy.get('[data-test="signup"]').click()
         cy.get('#firstName').type( 'Admin1')
@@ -12,13 +14,16 @@ describe("cypress-realworld-app", () => {
         cy.get('#password').type('admin123')
         cy.get('#confirmPassword').type('admin123')
         cy.get('[data-test="signup-submit"]').click()
+        cy.wait(1)
     })
+
     it('Login unsuccessful', () => {
         cy.visit('http://localhost:3000')
         cy.get('#username').type('admin')
         cy.get('#password').type('admin123')
         cy.get('[data-test="signin-submit"]').click()
         cy.get('.MuiAlert-message').contains('Username or password is invalid')
+        cy.wait(1)
     })
 
     it('Login successful', () => {
@@ -28,6 +33,7 @@ describe("cypress-realworld-app", () => {
         cy.get('[data-test="signin-submit"]').click()
         cy.get('[data-test="sidenav-home"]').contains('Home')
     })
+
     it('Create new Login incomplete', () => {
         cy.visit('http://localhost:3000')
         cy.get('[data-test="signup"]').click()
@@ -36,5 +42,6 @@ describe("cypress-realworld-app", () => {
         cy.get('#password').type('admin123')
         cy.get('#confirmPassword').type('admin123')
         cy.get('button').should('exist')
+        cy.get('#lastName').should('have.value', '')
     })
 })
