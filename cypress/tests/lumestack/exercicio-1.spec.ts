@@ -5,7 +5,6 @@
 describe("cypress-realworld-app", () => {
 
     it('Create new Login', () => {
-        cy.wait(1)
         cy.visit('http://localhost:3000')
         cy.get('[data-test="signup"]').click()
         cy.get('#firstName').type( 'Admin1')
@@ -14,7 +13,6 @@ describe("cypress-realworld-app", () => {
         cy.get('#password').type('admin123')
         cy.get('#confirmPassword').type('admin123')
         cy.get('[data-test="signup-submit"]').click()
-        cy.wait(1)
     })
 
     it('Login unsuccessful', () => {
@@ -23,7 +21,6 @@ describe("cypress-realworld-app", () => {
         cy.get('#password').type('admin123')
         cy.get('[data-test="signin-submit"]').click()
         cy.get('.MuiAlert-message').contains('Username or password is invalid')
-        cy.wait(1)
     })
 
     it('Login successful', () => {

@@ -17,12 +17,12 @@ describe("cypress-realworld-app", () => {
         cy.get('#username').type('admin1')
         cy.get('#password').type('admin123')
         cy.get('[data-test="signin-submit"]').click()
-        cy.get('.MuiButton-colorPrimary').click()
-        cy.get('#bankaccount-bankName-input').type('Nubank')
-        cy.get('#bankaccount-routingNumber-input').type(123456789)
-        cy.get('#bankaccount-accountNumber-input').type(102030405060)
-        cy.get('.BankAccountForm-submit').click()
-        cy.get('.MuiButton-textPrimary').contains('Done').click()
+        // cy.get('.MuiButton-colorPrimary').click()
+        // cy.get('#bankaccount-bankName-input').type('Nubank')
+        // cy.get('#bankaccount-routingNumber-input').type(123456789)
+        // cy.get('#bankaccount-accountNumber-input').type(102030405060)
+        // cy.get('.BankAccountForm-submit').click()
+        // cy.get('.MuiButton-textPrimary').contains('Done').click()
         cy.get('.MuiButton-colorInherit').click()
 
     })
@@ -51,7 +51,7 @@ describe("cypress-realworld-app", () => {
         cy.get("[data-test='transaction-create-submit-payment']").click()
         //cy.get('[data-test="alert-bar-success"]').contains('Transaction Submitted!')
     })
-        it('Request money', () => {
+            it('Request money', () => {
         cy.visit('http://localhost:3000')
         cy.get('#username').type('admin1')
         cy.get('#password').type('admin123')
@@ -64,6 +64,14 @@ describe("cypress-realworld-app", () => {
         cy.get('[data-test="alert-bar-success"]').contains('Transaction Submitted!')
     })
 
+    it.only('Check transaction history', () => {
+        cy.visit('http://localhost:3000')
+        cy.get('#username').type('admin1')
+        cy.get('#password').type('admin123')
+        cy.get('[data-test="signin-submit"]').click()
+        cy.get("[data-test='nav-personal-tab']").click()
+        cy.get("[data-test='transaction-sender_k_z9cHnz']").should('exist')
+    })
 
 
 })

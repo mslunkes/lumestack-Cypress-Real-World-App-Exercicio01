@@ -9,7 +9,8 @@ describe("cypress-realworld-app", () => {
         cy.get('#password').type('admin123')
         cy.get('#confirmPassword').type('admin123')
         cy.get('[data-test="signup-submit"]').click()
-        cy.wait(1000)
+        
+        cy.visit('http://localhost:3000')
         cy.get('#username').type('admin1')
         cy.get('#password').type('admin123')
         cy.get('[data-test="signin-submit"]').click()
